@@ -1,0 +1,667 @@
+{
+    "intents":[
+       {
+          "tag":"greeting",
+          "patterns":[
+             "Hi there",
+             "How are you",
+             "Is anyone there?",
+             "Hey",
+             "Hello"
+          ],
+          "responses":[
+             "Hello, I am Chendur Assistant,what can i do for you?",
+             "Hi there I am Chendur Assistant, how can I help you?"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"goodbye",
+          "patterns":[
+             "Bye",
+             "See you later",
+             "Goodbye",
+             "Nice chatting to you, bye",
+             "Till next time"
+          ],
+          "responses":[
+             "See you!,Have a nice day",
+             "Bye! Come back again soon."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"thanks",
+          "patterns":[
+             "Thanks",
+             "Thank you",
+             "That's helpful",
+             "Awesome, thanks",
+             "Thanks for helping me"
+          ],
+          "responses":[
+             "Happy to help!",
+             "Any time!",
+             "My pleasure"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"noanswer",
+          "patterns":[
+             
+          ],
+          "responses":[
+             "Sorry, can't understand you",
+             "Please give me more info",
+             "Not sure I understand"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"tiruchendur",
+          "patterns":[
+             "where is Tiruchendur ?",
+             "Where is Tiruchendur Located ?"
+          ],
+          "responses":[
+             "Tiruchendur is a municipality located in Thoothukudi District, Tamil Nadu, India. It is home to the Arulmigu Subramaniya Swamy Temple."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"reach tiruchendur",
+          "patterns":[
+             "How should I reach Tiruchendur ?",
+             "What are the possible way to reach Tiruchendur ?"
+             
+          ],
+          "responses":[
+             "To reach Tiruchendur via Road, Air & Train. Which Type of route to you want ?"
+          
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+         "tag":"reach via road",
+         "patterns":[
+            "How to reach Tiruchendur via Road ?",
+            "Road Route for Tiruchendur",
+            "How to reach Thiruchendur by Road ?"
+            
+         ],
+         "responses":[
+            "Thiruchendur is 34 Kms from Thoothukudi, 58 Kms from Tirunelveli, 115 Kms from Sankarankovil, 129 Kms from Aruppukkottai, 137 Kms from Sivakasi, 148 Kms from Rajapalayam, 180 Kms from Madurai and 217 Kms from Rameshwaram via Tamil Nadu State Road Transport Corporation (TNSRTC) and some private travel services."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"reach via Air",
+         "patterns":[
+            "How to reach Tiruchendur via Airline ?",
+            "Air Route for Tiruchendur",
+            "How to reach Thiruchendur by Airline ?"
+            
+         ],
+         "responses":[
+            "The nearest Domestic Airport from Thiruchendur is Madurai Airport, Tamil Nadu, roughly three hour drive from Thiruchendur. Madurai Airport is well connected to major cities like Chennai, Delhi, Hyderabad and Mumbai via Spice Jet, Jet Airways and Air India. Nearest Airport : Tuticorin Airports, Tuticorin"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"reach rail",
+         "patterns":[
+            "How to reach Tiruchendur via Railway ?",
+            "Railyway Route for Tiruchendur",
+            "How to reach Thiruchendur by Railway ?"
+            
+         ],
+         "responses":[
+            "The town has its own Railway Station named as Tiruchendur Railway Station. It is well connected to other cities like Coimbatore, Mysore, and Mumbai via Pearl City Express, Cbe TN Link Express, Tuticorin Express and Nagercoil Express."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"famous food",
+         "patterns":[
+            "Which Food items are Famous in Tiruchendur ?",
+            "List out the famous food items in Tiruchendur"
+            
+         ],
+         "responses":[
+            "Sillu karupatti(jaggery), Karuppaty, Panakarkandu,Palmyra tuber are the famous food items in Tiruchendur"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"famous hotels",
+         "patterns":[
+            "What are all the famous hotels in Tiruchendur ?",
+            "List out the famous hotels around the temple "
+            
+         ],
+         "responses":[
+            "Hotel Mani Iyyar, Hotel Ramesh Iyyar, Hotel kavery, Hotel Idhaym, Hotel Saravana Bhavan, Hotel Kaviya .These hotels are famous Near Temple"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Temple Architecture",
+         "patterns":[
+            "Can you Please tell about temple Architeccture ?",
+            "What are architecture of Tiruchendur temple ?"
+            
+         ],
+         "responses":[
+            "Built near the seashore, the temple measures 91 m north to south, 65 m east to west, and has a nine-tier gopuram, or tower gate, which is 157 feet tall. The main entrance faces south, opening onto the first of two prakarams, the first of which is lined with Yalis rows. The temple's inner sanctum is in a cave, and Murugan is the principal deity as a saintly child, portrayed in a granite carving. Naazhi Kinaru, a holy well fed by a freshwater stream, is situated 100 m south of the temple. Upon bathing in the ocean, devotees undergo a ceremonial purification by bathing in water from the well."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      
+      {
+         "tag":"Pooja time",
+         "patterns":[
+            "Can you Please tell about the spritual worship timing ?",
+            "List out the pooja times ?",
+            "which time they will do pooja ?",
+            "can you specify the puja time "
+            
+         ],
+         "responses":[
+            "5:00 AM : Temple Opening Time, 5:10 AM to 5:30 AM : Subrapadam Thirupalli Eluchi, 5:30 AM to 5:45 AM : Viswaroopam Darshan, 5:45 AM to 6:15 AM : Dwajasthamba Namaskaram, 6:15 AM to 7:00 AM : Udaya Marthanda Abishekam, 7:00 AM to 8:00 AM : Udaya Marthanda Deeparadhanai, 8:00 AM to 8:30 AM : Kalasandhi Pooja, 10:00 AM to 10:30 AM : Kalasha Pooja, 10:30 AM to 11:00 AM : Uchikala Abishekam, 12:00 PM : Uchikala Deeparadhanai, 5:00 PM : Sayaratchai Pooja, 7:15 PM : Arthasama Abishekam, 8:15 PM to 8:30 PM : Arthasama Pooja, 8:30 PM to 8:45 PM : Ekantha Seva, 8:45 PM to 9:00 PM : Ragasia Deeparadhanai, Palliarai Pooja, 9:00 PM : Nadai Thirukappiduthal,Nadai Closed"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Festival",
+         "patterns":[
+            "List out the Famous Fetival",
+            "What are the famous festival in Tiruchendur Temple ?",
+            "which festivals are grantly celebrated in Tiruchendur temple ?"
+            
+         ],
+         "responses":[
+            "Kandha Sasti (Soorasamharam), Thai Poosam, Masi Car Festival, Panguni Uthiram, Vaigasi Visagam, Aavani Festival"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"deities",
+         "patterns":[
+            "What are the deities in the Tiruchendur Temple ?",
+            "List out the deities inside the temple ?",
+            "what are the gods are inside the temple ?"
+            
+         ],
+         "responses":[
+            "Moolavar : Subramanya Swamy, Urtchavar: Shunmugar, Natarajar, Jeyanthi nathar, Kumaravidanga Peruman, Other Deities: Valli Amman, Deivanai Amman, Gurubagavan, SooraSamharamoorthy, Perumal, Vinayagar, Panja Lingam,Sri Saneeswarar, Sri Bhairavar, Nine planet gods"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Main god",
+         "patterns":[
+            "Who is the main god in Tiruchendur Temple ?",
+            "Main deity in Tiruchendur",
+            "who is considered to be the main deity in Tiruchendur temple ?"
+            
+         ],
+         "responses":[
+            " Murugan is the main god of Tiruchendur. Swami name is Subramanya Swami "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Rules for enter temple",
+         "patterns":[
+            "What are the protocols to enter into the temple ?",
+            "what are the rules to follow in Tiruchendur ?",
+            "Tell us about the rules to be followed in Tiruchendur Temple ?",
+            "photography is allowed to the temple"
+            
+         ],
+         "responses":[
+            " Keep clean the temple environment, Photoraphy is not allowed, Do not use the plastic surroundig Temple, Men does not wear shirt inside the temple, Jeans are not allowed to the temple",
+            " No Photography is not allowed in the temple "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Dress code",
+         "patterns":[
+            "Which dresscode mainatin in Tiruchendur Temple ?",
+            "which clothes are allowed in Tiruchendur temple",
+            "can you please tell about the dress code of Tiruchendur temple ?"
+            
+         ],
+         "responses":[
+            " Traditional Dress code are allowed to the temple both men and women, vesti, pyjama, kurtha for mens & saree, sudithar with duphatta for women"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },{
+         "tag":" special days",
+         "patterns":[
+            "what is the auspicious days for Tiruchendur temple ?",
+            "what are the special days for deity 'murugan' in the week",
+            "can you please tell about the weekly special days in the temple ?",
+            "which days in the week very crowd in the temple ?",
+            "list out the weekly special days "
+            
+         ],
+         "responses":[
+            " Tuesday is very special days in Tiruchendur temple. it is favour day for lord subramanya swami, And Weekends very crowd in the tempple , Saturday and Thursday also special days in the temple and every month last friday(Madha Velli kilamai) also speccial day . "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Kandha sasti festival",
+         "patterns":[
+            "Can you Please tell about the Kandha Sasti Festival?",
+            "which programs are conducted during kandha Sasti festival",
+            "which time soorasamharam is celebrated  ?",
+            "about the soorasamharam festival"
+            
+         ],
+         "responses":[
+            " This festival celebrated in 7 days (October to November) . Devotees numbering about five lakhs will participate in the above festival. On this festival occasion, devotees fast for all six days. On the 6th day Surasamharam is demonstrated. On the 7th day Thirukkalyanam to Deivanai is celebrated in a grand manner."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Masi car festival",
+         "patterns":[
+            "Can you Please tell about the Masi Car  Festival?",
+            "which programs are conducted during Masi car festival",
+            "which time Masi car festival is celebrated  ?"
+         ],
+         "responses":[
+            " The Tiruchendur Brahmotsavam of Masi during February-March each year wherein all the three temple cars are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival, is much esteemed throughout Tamil Nadu.The Pachchai Sattuppadi or the floral decoration of the deity in all green on the eighth morning is especially one which none would wish to miss in the festival."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Aavani festival",
+         "patterns":[
+            "Can you Please tell about the Aavani Festival?",
+            "which programs are conducted during Aavani festival",
+            "which time Aavani Festival is celebrated  ?"
+         ],
+         "responses":[
+            " Avani Festival is celebrated in August to  September. Devotees numbering about two lakh participate in this festival. On this Avani festival 7th, 8th and 10th day functions are more important. On the 7th, the Sikappu sathi Festival takes place. On 8th, it is the Pachai Sathi Festival and on 10th, there is a Car Festival"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Vaigasi Visagam",
+         "patterns":[
+            "Can you Please tell about the Vaigasi Visagam ?",
+            "which programs are conducted during Vaigasi Visagam",
+            "which time Vaigasi visagam is celebrated  ?"
+         ],
+         "responses":[
+            " Vaikasi Visagam is celebrated in May to June. Many devotees participate in the festival. A procession of Sri Jayanthinathar with Valli and Deivanai is conducted in the night."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"temple construction",
+         "patterns":[
+            "Tiruchendur temple construction ",
+            "who is build Tiruchendur Temple ?",
+            "By whom was the Tiruchendur temple build ?"
+         ],
+         "responses":[
+            " A saint called Mouna Swami re-constructed the temple with three circular compound walls (Prakarams) with black granite stone. It took nearly 72 years for completion of this temple. Three hundred years back the Raja Gopuram was built by Sri Desikamurthy Swami of Tiruvaduthurai Mutt."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"kind of dharisnam",
+         "patterns":[
+            "What kind of Dharisanam avilable in Tiruchendur temple",
+            "Type of Dharisanam",
+            "how to perform Dharsan in the temple ?",
+            "how many types of dharsanam avilable in the temple"
+         ],
+         "responses":[
+            " Two types Dharsanam avilable in the temple. Civil Dharsanam and Viraivu Dharsanam. Civil Dharsan is free of cost. Viraivu dharsanam amount is 200"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Nerthikadan",
+         "patterns":[
+            "What is the fine paid at tiruchendur temple ?",
+            "List out the Nerthikadans in the temple",
+            "Specify the nerthikadans paid by the devotees at tiruchendur temple ?",
+            "What kind of prayers fullfilled by by the devotees in tiruchendur temple ?"
+         ],
+         "responses":[
+            " Mudi kanikai(head shave), Angapradkshana(Roll on floor), Kavadiyattam(Type of Dance), Alagu kuthuthal, Pal kudam( carrying the milk and used it to abishekam for swami), Fasting in Sasti,Ear pouring"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"crowd free",
+         "patterns":[
+            "When we can worship God Murugan by crowd free ?",
+            "which time can we see God Murugan without crowd ?",
+            "when we see god murugan freely ?"
+         ],
+         "responses":[
+            "Monday,Wednesday these days we can worship god murugan freely,And every day 3pm to 5pm can we dharsan lord murugan freely"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Procedure to worship",
+         "patterns":[
+            "worship process in tiruchendur temple ?",
+            "Procedure to dharsan Lord murugan in tiruchendur?",
+            "If there any procedure to prey god murugan in tiruchendur ?"
+         ],
+         "responses":[
+            "First worship at Sivakoluntheeswarar temple(Palaya koil) and then worship at Thoondugai Vinayagar temple(Vidalai Pillaiyar Koil) then bath in sea shore and Naali Kinaru and then enter the temple then worship God Subramanya Swami and Shunmugar ,Jeyanthi nathar and then worship Kodimaram(utprakaram) and worship other deities Such as Saneeswarar, Bhairavar, Valli amman , Devasenai amman, Guru bagavan and come out veli prrakaram worship God Perumal(Vishnu), Soorasamharamoorthy, Kanni vinayagar, Veli kodimaram "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Prasadam",
+         "patterns":[
+            "what is the main offering offered at Tiruchendur temple?",
+            "which Prasadam is offered at temple ?",
+            "list out prasadam offered at Tiruchendur temple ?"
+         ],
+         "responses":[
+            "Panneer Leaf Viboothi, Panjamirtham, Payasam, Appam, Karkandu,"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"get prasadam",
+         "patterns":[
+            "How do I get prasdam in temple ?",
+            "Procedure to get prasadam in Tiruchendur temple ?"
+         ],
+         "responses":[
+            "Prasadam are avilabe in Devasdanam prasdha Counters. Devasdanam Prasadha Counters are avilable in temple Veli Prakaram and temple campus.  "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Dharsanam timing",
+         "patterns":[
+            "Can you please tell about the dharsanam timing?",
+            "Time schedule of Dharsanam ?",
+            "Which time  the devasdanam allowed devotees for dharsan ? "
+         ],
+         "responses":[
+            "Vishwaroopa darshan: 5:30 AM to 6:15 AM, Morning Darshan: 6:15 AM to 12:00 PM, Evening Hours: 4:00 PM to 9:00 PM "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Archana seva",
+         "patterns":[
+            "Can you please tell about the Archana seva?",
+            "List out the Archana Seva ",
+            "In Temple, Any Archana seva is avilable there ? ",
+            "Type of Archana Seva in Tiruchendur Temple"
+         ],
+         "responses":[
+            "Normal Archana, Shunmuga Archana, Sahasranama Archana, Golden Chariot, Abishekam . Disclaimer: Online Booking costs more than intermediaries. Because there is no offiial online booking website for the temple. Please book the archana tickets in Devasdanam Office"
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Sahasranama Archana",
+         "patterns":[
+            "Can you please tell about the process for Sahasranama Archana",
+            "How to i book for Sahasranama Archana ?",
+            "Waht is the Procedure to book Sahasranama Archana ? "
+         ],
+         "responses":[
+            "Sahasranama Archana , a Powerfull vedic ritual is performed for shunmugar to destroy the negativities in our life and lead a happy life. Do book This Archana Seva Register in Tiruchendur devasdanam office early.This cost 2000. To pay this cost and register your date, 4 person allowedd for the Booking tickets. cancellation and Postpaned are not allowed."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Shunmuga Archana",
+         "patterns":[
+            "Can you please tell about the process for Shunmuga Archana",
+            "How to i book for Shunmuga Archana ?",
+            "Waht is the Procedure to book Shunmuga Archana ? ",
+            "Shunmuga Archana "
+         ],
+         "responses":[
+            "Ticket Cost: Rs.2000,Rs.1500 has to be paid on the Pooja date at the counter for Pooja materials,Total Ticket Cost: Rs.3500 for 6 persons,Ticket includes Archanai and Darshan,Timings: 8:00 am and 5:00 pm, Procedure : To apply this Ticket in Devasdanam office, Valid Photo ID details required at the time of booking the ticket. The devotee must report 3 hours in advance with the ticket printout, One must carry the Valid Photo ID proof at the time of reporting, Tickets can be booked 4 days in advance to 30 days."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Abishekam",
+         "patterns":[
+            "Can you please tell about the process for Abishekam",
+            "How to i book for Abishekam ?",
+            "Waht is the Procedure to book Abishekam ? ",
+            "Abishekam "
+         ],
+         "responses":[
+            "Ticket Cost: Rs.1500, Timings: 6:00 am, 7:00 am, 10:00 am, 6:00 pm and 7:00 pm, Abhishekam is performed Daily, No.Of persons allowed: 2, The devotees are allowed to sit in the Sanctum Sanctorum during Abhishekam.  The priest will be performing the Abhishekam with Milk, Curd, Honey, Panchamrutham during this time. Complete pooja runs for 30 mins. Procedure : To apply this Ticket in Devasdanam office, Valid Photo ID details required at the time of booking the ticket. The devotee must report 3 hours in advance with the ticket printout, One must carry the Valid Photo ID proof at the time of reporting, Tickets can be booked 4 days in advance to 30 days "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Golden Chariot",
+         "patterns":[
+            "Can you please tell about the process for Golden Chariot",
+            "How to i book for Golden Chariot ?",
+            "Waht is the Procedure to book to pull Golden Chariot ? ",
+            "Instruction to Pull Golden chariot in Tiruchendur temple "
+         ],
+         "responses":[
+            "Timings: 5:30 pm. Daily.,Reporting time: 3:00 pm in Margazhi month 4pm, No.Of persons allowed: 4 per ticket,Ticket Cost: Rs.2500, Procedure : To apply this Ticket in Devasdanam office, Valid Photo ID details required at the time of booking the ticket. The devotee must report 3 hours in advance with the ticket printout, One must carry the Valid Photo ID proof at the time of reporting, Tickets can be booked 4 days in advance to 30 days."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Mudi Kanikai",
+         "patterns":[
+            "Can you please tell about the process for Mudi Kanikai",
+            "How to i book Head Shaving ?",
+            "What is the Procedure to book Head shaving ? ",
+            "Instruction For Hair Donation"
+         ],
+         "responses":[
+            " Cost for one person: Rs20, To book for this ticket. Pay the amount in Ticket counter.The ticket counter near from Naali kinaru."
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Marraige Process",
+         "patterns":[
+            "What are the procedure for getting married in Tiruchendur Temple ?",
+            "How to booking a wedding at Tiruchendur Temple?",
+            "Instruction For Book Marraige inside the temple"
+         ],
+         "responses":[
+            "Marriage Cost: Rs.1500, All Puja materials required for the marriage to be carried on their own, Purohit will not be provided by the temple trust, The above-mentioned fees to be paid to the temple, Marriage Duration: 30 to 45 mins, Hall Location: Near Kodisthambham. Marriage Booking procedure: Advance booking required as Marriages are performed on special days,The Groom must be 21 years and above.The Bride must be 18 years and above.Parents/ Relatives must present for the marriage.Aadhaar Cards Photocopies required from Bride, Groom and their parents. "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Temple details",
+         "patterns":[
+            "Can You please tell about the Tiruchendur Temple ?",
+            "About Temple Details?"
+         ],
+         "responses":[
+            "The Tiruchendur Subramanya Swamy Temple is situated in Tiruchendur, and is dedicated to God Subramanya or Skanda. It is one of the six major abodes of God Subramanya and is the only one among the six to be near the sea, as the other five temples are situated on mountains. The town Tiruchendur once had a different puranic name of Jayanthipuram. "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Nearby Famous Temples",
+         "patterns":[
+            "Can You please tell about the Famous temple nearby Tiruchendur ?",
+            "Any Famous temples around Tiruchendur",
+            "Can you please suggest to visit the temples nearby Tiruchendur ? "
+         ],
+         "responses":[
+            "Arulimigu Sri Mutharamman Temple kulasekarapattinam, Sri KarkuVel Ayyanar temple Kuthiraimozhi, NavaThirupathi(9 temples), VanaThirupathi Punnai nagar, Arulmigu Nellaiappar Temple Tirunelveli, Courtalanathar temple Courtalam, Kazhugusala Moorthy Kazhugumalai, Thanumalaya Swami Temple Suceentram "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Nearby Famous Tourist Places",
+         "patterns":[
+            "Can You please tell about the Famous tourist places nearby Tiruchendur ?",
+            "Any Famous tourist places around Tiruchendur",
+            "Can you please suggest to visit the tourist places nearby Tiruchendur ? ",
+            "which tourist places can we visit nearby Tiruchendur"
+         ],
+         "responses":[
+            "Ayyanar Sunai, Manapad, Panchalankurichi, Pabanasam Falls, Manimutharu, Courtallam Falls, Kanyakumari, Thirparappu Falls, Tuticorin Panimaya madha Church "
+         
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Nava Tirupathi",
+         "patterns":[
+            "Can You please tell about Nava Tirupathi ?",
+            "List out the Nava Tirupathi Temple"
+         ],
+         "responses":[
+            "Nava Tirupathi Temples are nine different temples situated at nine different locations, all dedicated to Lord Vishnu. All the nine temples are located in Tiruchendur-Tirunelveli route and staying in Tirunelveli or Thoothukudi is the best way to cover the Navathirupathi Temples. The temples are Sri Vaikuntanatha Temple Srivaikundam (Sun) , Thiru Varagunamangai Perumal Temple Naatham (Moon), Thiru Puliangudi Permual Temple Thirupuliyangudi (mercury), Rettai Thirupathi Temples Thirutholavallimangalam (Ragu & Kethu), Sri Mayakoothan Permual Temple Perungulam (saturn/shani), Makara Nedunkuzhai Kannan Temple Thenthiruperai (venus/Sukran), Sri Vaithamanidhi Permual Temple Tirukkolur (Mars/Sevai), Sri Adhinaatha Perumal Temple Alwarthirunagari (Guru) "
+         
+         ],
+         "context":[
+            ""
+         ]
+      }
+
+
+
+
+
+      
+
+      
+       
+    ]
+ }
