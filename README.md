@@ -23,6 +23,3 @@ geopy,
 tensoeflow,
 keras,
 
-Output Screens
-
-![](
