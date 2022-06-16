@@ -23,5 +23,24 @@ geopy,
 tensoeflow,
 keras,
 
-![](Screenshot/1.PNG)
+# OUTPUT
+# Weather
+![](Screenshot/1.png)
+# Voice chat
+![](Screenshot/2.png)
+# Text chat
+![](Screenshot/3.png)
+# Setting
+![](Screenshot/4.png)
+# History
+![](Screenshot/5.png)
+# News
+![](Screenshot/6.png)
+# Map 
+![](Screenshot/7.png)
+# youtube
+![](Screenshot/8.png)
+
+
+
 
